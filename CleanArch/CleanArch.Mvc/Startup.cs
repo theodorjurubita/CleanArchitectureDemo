@@ -1,3 +1,4 @@
+using CleanArch.Infrastructure.Data.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -6,7 +7,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using CleanArch.Infrastructure.IoC;
-using CleanArch.Infrastructure.Data.Context;
 using CleanArch.Mvc.Data;
 
 namespace CleanArch.Mvc
